@@ -1,7 +1,6 @@
 # 🏦 Customer Churn Prediction (Lateral AI Academy Competition)
 ![Python](https://img.shields.io/badge/Python-3.10-blue)
 ![scikit-learn](https://img.shields.io/badge/ML-scikit--learn-orange)
-![License](https://img.shields.io/badge/license-MIT-lightgrey)
 
 
 This project tackles the problem of predicting **customer churn** for a financial institution. The goal is to build accurate machine learning models that estimate the likelihood of a customer exiting the bank (i.e., `Exited = 1`) using demographic, financial, and behavioral data.

@@ -1,4 +1,8 @@
 # 🏦 Customer Churn Prediction (Lateral AI Academy Competition)
+![Python](https://img.shields.io/badge/Python-3.10-blue)
+![scikit-learn](https://img.shields.io/badge/ML-scikit--learn-orange)
+![License](https://img.shields.io/badge/license-MIT-lightgrey)
+
 
 This project tackles the problem of predicting **customer churn** for a financial institution. The goal is to build accurate machine learning models that estimate the likelihood of a customer exiting the bank (i.e., `Exited = 1`) using demographic, financial, and behavioral data.
 
@@ -20,11 +24,11 @@ Customer churn refers to the event where a client ceases their relationship with
 - Use `train.csv` to train and validate models.
 - Predict probabilities on `test.csv`.
 - Output a `submission.csv` containing:  
-id,Exited
-15000,0.327
-15001,0.678
-...
-
+  ```csv
+  id,Exited
+  15000,0.327
+  15001,0.678
+  ```
 - Evaluation Metric: **ROC AUC**
 
 ---
@@ -106,7 +110,9 @@ imblearn
 ```
 
 Install with:
+```bash
 pip install -r requirements.txt
+```
 
 ## 🚀 How to Run
 1. Clone the repo:

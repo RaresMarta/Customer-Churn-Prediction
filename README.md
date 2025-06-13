@@ -77,14 +77,14 @@ Each model is evaluated using **Stratified 5-Fold Cross-Validation** on `train.c
 - Recall
 - ROC AUC
 
-Example result table:
+Updated evaluation results:
 
 | Model              | Accuracy | Precision | Recall | ROC AUC |
 |--------------------|----------|-----------|--------|---------|
-| Logistic Regression| 0.85     | 0.72      | 0.62   | 0.91    |
-| Random Forest      | 0.87     | 0.76      | 0.65   | 0.93    |
-| SVC                | 0.86     | 0.73      | 0.66   | 0.92    |
-| Gradient Boosting  | 0.88     | 0.78      | 0.68   | 0.94    |
+| Logistic Regression| 0.888    | 0.773     | 0.638  | 0.927   |
+| Random Forest      | 0.889    | 0.812     | 0.598  | 0.929   |
+| SVC                | 0.762    | 0.459     | 0.909  | 0.903   |
+| Gradient Boosting  | 0.891    | 0.792     | 0.632  | 0.930   |
 
 ---
 

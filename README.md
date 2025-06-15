@@ -1,4 +1,4 @@
-# 🏦 Customer Churn Prediction (Lateral AI Academy Competition)
+# 🏦 Customer Churn Prediction
 ![Python](https://img.shields.io/badge/Python-3.10-blue)
 ![scikit-learn](https://img.shields.io/badge/ML-scikit--learn-orange)
 
